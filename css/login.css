@@ -1,0 +1,49 @@
+body.login {
+	background-image: url("../img/bg.jpg") !important;
+	height: 100% !important;
+}
+
+#login {
+	padding-top: 36px !important;
+	position: relative !important;
+}
+
+#login h1 a {
+    background-image: url("../img/smdlogo.png") !important;
+    background-size: 200px 199px !important;
+   	height: 199px !important;
+   	position: relative !important;
+   	top: 98px !important;
+   	z-index: 1 !important;
+   	-webkit-transition: top 1s ease-out 0s !important;
+    -moz-transition: top 1s ease-out 0s !important;
+    -o-transition: top 1s ease-out 0s !important;
+    transition: top 1s ease-out 0s !important;
+}
+
+#login:hover h1 a {
+	top: 0px !important;
+}
+
+.login #nav {
+	float: right !important;
+}
+
+.login #backtoblog {
+	float: left !important;
+}
+
+.login form {
+	z-index: 2 !important;
+	position: relative !important;
+}
+
+div.updated, .login .message, #login_error {
+	position: absolute !important;
+	top: 517px !important;
+	width: 309px !important;
+	text-align: center !important;
+	z-index: 0 !important;
+	padding: 10px 0 !important;
+	margin: 0 auto 0 8px !important;
+}
