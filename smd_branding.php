@@ -28,7 +28,7 @@ add_filter( 'login_headerurl', 'my_custom_login_url', 10, 4 );
 // Custom WordPress Footer
 
 function remove_footer_admin () {
-    echo '&copy; <?php echo date('Y'); ?> - <a href="http://www.seanmichael.me">Sean Michael Design</a>';
+    echo '&copy;' . date('Y') . '- <a href="http://www.seanmichael.me">Sean Michael Design</a>';
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
